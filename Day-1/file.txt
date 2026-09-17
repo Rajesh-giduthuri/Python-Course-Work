@@ -11,11 +11,4 @@ Comments: These are notes for humans that Python ignores. Use # for single lines
 Variables: These are containers for storing data. You must follow Naming Rules: they can't start with a number, can't use special symbols (except _), and are case-sensitive.
 ●
 Operations:
-●
-Multiple Assignment: Setting many variables at once (e.g., x, y = 5, 10).
-●
-Reassignment: Changing a variable's value later in the code.
-●
-Swapping: Swapping values between two variables easily using a, b = b, a.
-●
-Deleting: Using del to remove a variable from memory entirely.
+
