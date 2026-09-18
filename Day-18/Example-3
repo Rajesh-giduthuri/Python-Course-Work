@@ -1,0 +1,16 @@
+m=[[1,2,3],[4,5,6],[7,8,9]]
+for i in range(len(m)):
+    for j in range(len(m[i])):
+        print(m[i][j],end=" ")
+
+#output:1 2 3 4 5 6 7 8 9 
+
+res=[m[i][j] for i in range(len(m)) for j in range(len(m[i]))]
+print(res)
+
+#output:[1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+re=[m[i][j] for i in range(len(m)) for j in range(len(m[i])) if i==j]
+print(re)
+
+#output:[1, 5, 9]

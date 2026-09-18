@@ -1,0 +1,38 @@
+#Generator: Special type of iterator to generate values lazily one by one
+# Used to return multiple res from functions
+
+def generator(n):
+    yield 1
+    yield 2 
+    yield 3
+res=generator(3)
+print(next(res)) #next() is a function to get the next value from the generator
+print(next(res))
+
+#output:1 2
+
+def gen(x):
+    x=x+1
+    yield x
+    x+=10
+    yield x
+    x+=100
+    yield x
+res=gen(10)
+for i in res:
+    print(i)
+
+#output:11 21 121
+
+l=[1,2,3]
+res=(x for x in l) #generator expression
+print(type(res))
+print(next(res))
+#output:<class 'generator'> 1
+
+l=[1,2,3]
+res=tuple(x for x in l) #generator expression
+print(type(res))
+print(res)
+
+#output:<class 'tuple'> (1, 2, 3)

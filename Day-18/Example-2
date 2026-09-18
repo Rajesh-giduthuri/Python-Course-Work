@@ -1,0 +1,5 @@
+l=[1,2,3,3,90]
+res=["even" if x%2==0 else "odd" for x in l]
+print(res)
+
+#output:['odd', 'even', 'odd', 'odd', 'even']
