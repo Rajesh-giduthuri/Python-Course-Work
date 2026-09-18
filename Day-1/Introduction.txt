@@ -1,0 +1,27 @@
+Programming & Languages: Programming is the act of giving a computer a set of instructions to perform a task. 
+Procedural programming follows a step-by-step list of instructions (like a recipe), 
+while Object-Oriented Programming (OOP) organizes code around "objects" that hold both data and actions (like a digital character in a game).
+●
+Python Overview: Python is a high-level, easy-to-read language that became popular because its syntax looks a lot like English. It has a massive history of being used for everything from web development to Artificial Intelligence.
+●
+Memory Allocation: This is a key technical difference between the two styles:
+●
+In Procedural programming, memory is often allocated linearly as the program executes its steps.
+●
+In OOP, memory is allocated for specific objects, meaning the computer sets aside space for each individual "thing" you create in your code.
+
+Python(Procedural language)
+->Top-down
+->functions(blocks)
+
+OOP
+->Bottom-up
+->Class,Object,Constructor
+->Inheritence
+->polymorphism
+->Encapsulation
+->Abstraction
+
+History:
+Guido Van Russum developed python in 1980
+current python version 3.14.07
