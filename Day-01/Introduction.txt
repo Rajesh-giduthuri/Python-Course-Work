@@ -7,7 +7,7 @@ Python Overview: Python is a high-level, easy-to-read language that became popul
 Memory Allocation: This is a key technical difference between the two styles:
 ●
 In Procedural programming, memory is often allocated linearly as the program executes its steps.
-●
+
 In OOP, memory is allocated for specific objects, meaning the computer sets aside space for each individual "thing" you create in your code.
 
 Python(Procedural language)
