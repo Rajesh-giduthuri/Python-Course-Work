@@ -29,3 +29,14 @@ print(d)
 
 x=10
 print(hash(x)) #unique number for only immutable data type
+
+#most repeated key
+s = "Python code code"
+l = s.split()
+
+d = {}
+for w in l:
+    d[w]=d.get(w,0)+1
+
+k=max(d,key=d.get)
+print(k)
