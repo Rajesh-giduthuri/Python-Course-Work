@@ -30,7 +30,7 @@ print(s3.upper())
 print(s3.lower())
 print(s3.capitalize())
 print(s4.title())
-print(s5.swapcase())
+print(s5.swapcase()) 
 
 #Check Methods
 # isupper()
