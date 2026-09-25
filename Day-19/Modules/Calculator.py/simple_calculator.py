@@ -13,7 +13,7 @@ print("power of 2 values:",power.power(2,2))
 
 #output:
 #addition of 2 values: 30
-#addition of n values: 150
+#addition of n values: 150 
 #subtraction of 2 values: -10
 #multiplication of n values: 200
 #modulo_division of 2 values: 10
