@@ -17,7 +17,7 @@
 # # b='d'
 # # print(a/b)----TypeError
 
-# dict={'c':4}
+# dict={'c':4} 
 # print(d['g'])------KeyError
 
 # l=[1,2,3,4,5]
