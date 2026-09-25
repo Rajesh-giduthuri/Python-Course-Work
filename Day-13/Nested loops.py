@@ -14,7 +14,7 @@ for i in range(n):
         print("*",end=" ")
     print()
 
-#numbers in square pattern
+#numbers in square pattern 
 n=1
 for i in range(3):
     for j in range(3):
