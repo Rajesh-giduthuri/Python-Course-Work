@@ -9,7 +9,7 @@ if n>0:
 #if else
 age=int(input())
 if age>18:
-    print("Eligible")
+    print("Eligible") 
 else:
     print("Not Eligible")
 
