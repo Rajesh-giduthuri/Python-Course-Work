@@ -12,4 +12,4 @@ for i in range(1,11):
 cou=0
 for i in range(1,51,2):
     cou+=1
-print(cou)
+print(cou) 
