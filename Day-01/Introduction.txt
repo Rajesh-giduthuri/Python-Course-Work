@@ -24,4 +24,4 @@ OOP
 
 History:
 Guido Van Russum developed python in 1980
-current python version 3.14.07 
+current python version 3.14.07
