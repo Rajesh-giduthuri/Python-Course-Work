@@ -16,7 +16,7 @@ addition(10,20) #function call (arguments)
 # -->with return & with parameters
 def add1(a,b):
     return a+b
-print(add1(10,20))
+print(add1(10,20)) 
 
 # -->with return & without parameters
 def add2():
