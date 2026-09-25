@@ -12,7 +12,7 @@ print(std) #duplicates are not supported and key is reasigned with new value
 s="sreekanth"
 d={'s':1,'r':1,'e':2,'k':1}
 print(d['e'])
-print(d.get('e'))
+print(d.get('e')) 
 
 #methods
 print(d.keys())
