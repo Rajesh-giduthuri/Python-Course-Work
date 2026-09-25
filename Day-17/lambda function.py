@@ -24,7 +24,7 @@ print(list(res))
 #map()
 l=[1,2,3,4,5,6]
 res=map(lambda x:x>10,l)
-print(list(res))
+print(list(res)) 
 
 #reduce()
 from functools import reduce
