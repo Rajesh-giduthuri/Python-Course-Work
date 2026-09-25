@@ -12,7 +12,7 @@ print(fact(5))
 #fibonacci
 def fibonacci(n):
     if n==0: #base condition
-        return 0
+        return 0 
     if n==1: #base condition
         return 1
 
