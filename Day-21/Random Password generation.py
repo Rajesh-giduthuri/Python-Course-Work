@@ -8,7 +8,7 @@
 # length=int(input("Enter password length: "))
 # password=""
 # for i in range(length):
-#     password+=r.choice(characters)
+#     password+=r.choice(characters) 
 # print("Generated Password:", password)
 
 # this code generated as user define with every type of character in password with minimum length of 4
