@@ -19,7 +19,7 @@ for i in range(n):
 #single loop inverted right angle triangle pattern
 n=int(input())
 for i in range(n,0,-1):
-    print("* "*i)
+    print("* "*i) 
 
     
 #opposite inverted right angle triangle pattern
