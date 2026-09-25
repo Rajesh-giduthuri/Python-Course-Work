@@ -11,7 +11,7 @@ print(type(num)) #int
 float_num=26.5
 print(type(float_num)) #float   
 
-complex_num=2+3j
+complex_num=2+3j 
 print(type(complex_num)) #complex
 
 l=[1,2,3,4,5]
