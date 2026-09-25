@@ -10,4 +10,4 @@ while n>0:
 if temp==rev:
     print("Palindrom")
 else:
-    print("Not Palindrom")
+    print("Not Palindrom") 
