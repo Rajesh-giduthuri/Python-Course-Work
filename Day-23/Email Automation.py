@@ -15,5 +15,5 @@ server=smtplib.SMTP("smtp.gmail.com",587)
 server.starttls() #Authentication
 server.login(sender,password)
 server.sendmail(sender,receiver,msg)
-server.quit()
+server.quit() 
 print("Mail has sent Successfully!")
