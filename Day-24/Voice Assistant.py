@@ -12,7 +12,7 @@ engine = pyttsx3.init()
 def speak(text):
     print("Assistant:", text)
     engine.say(text)
-    engine.runAndWait()
+    engine.runAndWait() 
 
 
 def listen():
