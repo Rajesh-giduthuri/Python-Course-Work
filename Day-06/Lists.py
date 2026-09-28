@@ -8,7 +8,7 @@ print(*li) #unpacking
 
 #l=list(map(int,input().split()))
 
-#concatenation
+# #concatenation
 l1=[1,2,3]
 l2=[4,5,6]
 print(l1+l2)
@@ -18,8 +18,23 @@ print(l1,l2)
 print(l1*3)
 
 #copy
+import copy
 x=l1.copy()
-print(x)
+print(x) 
+
+#shallow copy
+p=[1,2,[10,20]]
+s=copy.copy(p) 
+print(p,s)
+s[0]=100  #change only in s
+print(p,s)
+s[2][0]=1000  #change in both p,s
+print(p,s)
+
+#deep copy
+s=copy.deepcopy(p)
+s[2][0]=30  #change only in s
+print(p,s)
 
 #membership operator (in , not in)
 print(10 in l1)
@@ -58,3 +73,4 @@ print(len(l3))
 print(min(l3))
 print(max(l3))
 print(sum(l3))
+
