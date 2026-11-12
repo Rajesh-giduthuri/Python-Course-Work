@@ -34,7 +34,7 @@ print(s4.issubset(s3))
 print(s3.issuperset(s4))
 
 #frozenset(immutable , ordered)
-s5={10,20,40} #frozen that will not effected by any operations as normal set 
+s5=frozenset({10,20,40}) #frozen that will not effected by any operations as normal set 
 
 #set methods
 s3.add(10) #added at any pos because set is unordered
