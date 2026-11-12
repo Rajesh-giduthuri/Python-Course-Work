@@ -13,6 +13,11 @@ print(type(float_num)) #float
 
 complex_num=2+3j 
 print(type(complex_num)) #complex
+print(complex_num.real)
+print(complex_num.imag)
+
+a = complex(2, 3)
+print(a)
 
 l=[1,2,3,4,5]
 print(type(l)) #list
