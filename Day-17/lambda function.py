@@ -16,17 +16,17 @@ print(great(23,34))
 
 #Higher order functions (function is passed inside a function as parameter)
 
-#filter()
+#filter() #Selects elements based on condition --> Iterable
 l=[1,2,3,4,5,6]
 res=filter(lambda x:x%2==0,l)
 print(list(res))
 
-#map()
+#map() #Performs operation on every element --> Iterable
 l=[1,2,3,4,5,6]
 res=map(lambda x:x>10,l)
 print(list(res)) 
 
-#reduce()
+#reduce() #Combines elements into one result --> single value
 from functools import reduce
 l=[1,2,3,4,5,6]
 res=reduce(lambda a,b:a+b,l)
@@ -34,7 +34,7 @@ print(res)
 
 #sorted()
 stu=[('siri',34),
-     ("ravi",35),
-     ("sree",65)]
+     ("sree",65),
+     ("ravi",35)]
 res=sorted(stu,key=lambda x:x[1])
 print(res)
